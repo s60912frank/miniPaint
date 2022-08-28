@@ -729,6 +729,24 @@ const menuDefinition = [
 				target: 'tools/search.search'
 			},
 			{
+				name: 'Stable Diffusion',
+				ellipsis: true,
+				children: [
+					{
+						name: 'Connect to server',
+						target: 'tools/stable_diffusion.connect_server',
+					},
+					{
+						name: 'Text to image',
+						target: 'tools/stable_diffusion.text_to_image',
+					},
+					{
+						name: 'Image to image',
+						target: 'tools/stable_diffusion.image_to_image',
+					}
+				]
+			},
+			{
 				name: 'Settings',
 				ellipsis: true,
 				target: 'tools/settings.settings'
