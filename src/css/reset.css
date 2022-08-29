@@ -188,7 +188,10 @@ button:hover, input[type="button"]:hover{
 	background-color: var(--button-background-color-hover);
 }
 button:disabled, input[type="button"]:disabled{
-	visibility:hidden;
+	/* visibility:hidden; */
+	cursor: not-allowed;
+	background-color: rgb(229, 229, 229) !important;
+	color: black;
 }
 button[aria-pressed="true"], input[type="button"][aria-pressed="true"]{
 	background-color: var(--button-background-color-active);

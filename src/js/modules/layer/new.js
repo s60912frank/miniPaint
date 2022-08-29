@@ -54,6 +54,7 @@ class Layer_new_class {
 		//if image was stretched
 		var width_ratio = (layer.width / layer.width_original);
 		var height_ratio = (layer.height / layer.height_original);
+		console.log("ratio", width_ratio, height_ratio)
 		
 		var left = selection.x - layer.x;
 		var top = selection.y - layer.y;
